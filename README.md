@@ -22,13 +22,13 @@ python nonstationary_bandit.py
 ```
 The program will then present you with two experiment options:
 
-    1. Original comparison (from Sutton & Barto Exercise 2.5)
-        - Compares sample-average vs constant step-size methods
-        - Both use ε-greedy exploration (ε=0.1)
-    2. UCB extension
-        - Adds UCB (upper confidence bound) agent to the comparison
-        - Tests how UCB performs in non-stationary environments like this one
-        - Includes all 3 methods in output plots for direct comparison
+1. Original comparison (from Sutton & Barto Exercise 2.5)
+   - Compares sample-average vs constant step-size methods
+    - Both use ε-greedy exploration (ε=0.1)
+2. UCB extension
+   - Adds UCB (upper confidence bound) agent to the comparison
+    - Tests how UCB performs in non-stationary environments like this one
+    - Includes all 3 methods in output plots for direct comparison
 
 Follow the prompts to select your desired experiment. The program will run the simulation and generate plots showing:
 - Average reward over time
