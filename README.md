@@ -72,6 +72,10 @@ The experiments demonstrate several key findings:
     - UCB achieves similar rewards to constant step-size ε-greedy despite selecting optimal actions less frequently
 2) The performance gap between methods grows over time, which highlights the importance of maintaining adaptability in non-stationary environments
 
+## Extension: Parameter Study (WIP)
+
+Currently, on the branch titled parameter_study, I am attempting to expand this code to perform a parameter study of different algorithms and their hyperparameters. However, this is a work in progress and I am waiting on more computing power before completing it.  
+
 ## Acknowledgments
 
 - Based on Exercise 2.5 from "Reinforcement Learning: An Introduction" by Sutton & Barto
