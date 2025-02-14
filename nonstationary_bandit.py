@@ -118,13 +118,13 @@ def run_experiment(agent_type, n_steps, n_runs, **agent_params):
     
     return rewards, optimal_actions
 
-# create comparison plots for the results (mimicking those shown in Figure 2.2 in the Sutton & Barto)
+# create comparison plots for the results (mimicking those shown in Figure 2.2 in Sutton & Barto)
 def plot_comparison_results(results_dict, n_steps):
     fig, (ax1, ax2) = plt.subplots(2, 1, figsize=(12, 12))
     steps = np.arange(1, n_steps + 1)
     colors = ['blue', 'orange', 'green']
     
-    # Plot 1: plot average rewards
+    # plot 1: plot average rewards
     ax1.set_title('Average Reward over Time')
     for (name, results), color in zip(results_dict.items(), colors):
         rewards, _ = results
@@ -142,7 +142,7 @@ def plot_comparison_results(results_dict, n_steps):
     ax1.grid(True)
     ax1.legend()
     
-    # Plot 2: plot percentage of optimal actions
+    # plot 2: plot percentage of optimal actions
     ax2.set_title('Percentage of Optimal Actions over Time')
     for (name, results), color in zip(results_dict.items(), colors):
         _, optimal = results
