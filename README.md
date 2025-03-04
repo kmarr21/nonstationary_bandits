@@ -6,7 +6,7 @@ This repository implements and analyzes different approaches to solving non-stat
 
 1) Clone the repository:
 ```
-git clone https://github.com/yourusername/nonstationary-bandits.git
+git clone https://github.com/kmarr21/nonstationary-bandits.git
 cd nonstationary-bandits
 ```
 
